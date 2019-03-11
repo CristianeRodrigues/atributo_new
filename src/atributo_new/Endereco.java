@@ -15,8 +15,11 @@ public class Endereco {
     String bairro;
     String cidade;
     String UF;
+    Funcionario Func;
+    int soma;
     
      public void setRua(String rua){
        this.rua = rua; 
+       soma = Func.indice + 1;
     }
 }
