@@ -24,9 +24,10 @@ public class Funcionario {
     }
     
     public void setCidade(String cidade){
+        int indice = 50;
         end.cidade=cidade;
     }
-    public int getNumero(){
+    public String getNumero(){
         return end.numero;
     }
 }
