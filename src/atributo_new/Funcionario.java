@@ -26,4 +26,7 @@ public class Funcionario {
     public void setCidade(String cidade){
         end.cidade=cidade;
     }
+    public int getNumero(){
+        return end.numero;
+    }
 }
