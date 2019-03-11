@@ -24,7 +24,7 @@ public class Funcionario {
     }
     
     public void setCidade(String cidade){
-        int indice = 50;
+        float indice = 50;
         end.cidade=cidade;
     }
     public String getNumero(){
