@@ -11,7 +11,7 @@ package atributo_new;
  */
 public class Endereco {
     String rua;
-    int numero;
+    String numero;
     String bairro;
     String cidade;
     
