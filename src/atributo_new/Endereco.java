@@ -20,6 +20,5 @@ public class Endereco {
     
      public void setRua(String rua){
        this.rua = rua; 
-       soma = Func.indice + 1;
     }
 }
