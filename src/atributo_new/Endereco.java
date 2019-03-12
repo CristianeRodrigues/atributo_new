@@ -10,6 +10,7 @@ package atributo_new;
  * @author Cristiane
  */
 public class Endereco {
+
     String rua;
     String numero;
     String bairro;
@@ -17,8 +18,12 @@ public class Endereco {
     String UF;
     Funcionario Func;
     int soma;
-    
-     public void setRua(String rua){
-       this.rua = rua; 
+
+    public void setRua(String rua) {
+        this.rua = rua;
+    }
+
+    public void setVariavel() {
+        Func.variavel = 123;
     }
 }
