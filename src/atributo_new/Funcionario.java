@@ -13,7 +13,7 @@ public class Funcionario {
     int codigo;
     String funcao;
     Endereco end;
-    public String variavel;
+    public int variavel;
     
     public void setCodigo(int codigo){
         this.codigo = codigo;
